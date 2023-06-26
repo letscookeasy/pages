@@ -1,0 +1,136 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #f28705;
+    --e-global-color-secondary: #FFFFFF;
+    --e-global-color-text: #000000;
+    --e-global-color-accent: #2A2A2A;
+    --e-global-color-eb1dce0: #F2F2F2;
+    --e-global-color-1e4313f: #f28705;
+    --e-global-typography-primary-font-family: "Montserrat";
+    --e-global-typography-primary-font-size: 3vw;
+    --e-global-typography-primary-font-weight: 800;
+    --e-global-typography-primary-line-height: 1.3em;
+    --e-global-typography-primary-letter-spacing: 1px;
+    --e-global-typography-secondary-font-family: "Montserrat";
+    --e-global-typography-secondary-font-size: 2.4vw;
+    --e-global-typography-secondary-font-weight: 800;
+    --e-global-typography-secondary-line-height: 1.2em;
+    --e-global-typography-text-font-family: "Quicksand";
+    --e-global-typography-text-font-size: 1vw;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Montserrat";
+    --e-global-typography-accent-font-size: 1vw;
+    --e-global-typography-accent-font-weight: 700;
+    --e-global-typography-accent-line-height: 1.2em;
+    --e-global-typography-63a9c12-font-family: "Quicksand";
+    --e-global-typography-63a9c12-font-size: 1.25vw;
+    --e-global-typography-63a9c12-font-weight: 700;
+    --e-global-typography-4651c43-font-family: "Montserrat";
+    --e-global-typography-4651c43-font-size: 2vw;
+    --e-global-typography-4651c43-font-weight: 800;
+    --e-global-typography-00c4916-font-family: "Quicksand";
+    --e-global-typography-00c4916-font-size: 0.9vw;
+    --e-global-typography-e3a1cd7-font-family: "Montserrat";
+    --e-global-typography-e3a1cd7-font-size: 0.6vw;
+    --e-global-typography-e3a1cd7-font-weight: 700;
+    --e-global-typography-df2d261-font-family: "Quicksand";
+    --e-global-typography-df2d261-font-size: 0.6vw;
+    --e-global-typography-7163386-font-family: "Quicksand";
+    --e-global-typography-7163386-font-size: 0.8vw;
+    --e-global-typography-95b39d3-font-family: "Quicksand";
+    --e-global-typography-95b39d3-font-size: 1.2vw;
+    --e-global-typography-3be560a-font-family: "Montserrat";
+    --e-global-typography-3be560a-font-size: 1.4vw;
+    --e-global-typography-3be560a-font-weight: 700;
+    --e-global-typography-d6a7e6b-font-family: "Montserrat";
+    --e-global-typography-d6a7e6b-font-size: 0.8vw;
+    --e-global-typography-d6a7e6b-font-weight: 700;
+    --e-global-typography-a68532e-font-family: "Montserrat";
+    --e-global-typography-a68532e-font-size: 1.75vw;
+    --e-global-typography-a68532e-font-weight: 700;
+    --e-global-typography-3b72406-font-family: "Montserrat";
+    --e-global-typography-3b72406-font-size: 1.2vw;
+    --e-global-typography-3b72406-font-weight: 600;
+    background-color: var( --e-global-color-secondary );
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+
+
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width: 1024px) {
+    .elementor-kit-5 {
+        --e-global-typography-primary-font-size:3.2vw;
+        --e-global-typography-secondary-font-size: 2.6vw;
+        --e-global-typography-text-font-size: 1.2vw;
+        --e-global-typography-accent-font-size: 1.2vw;
+        --e-global-typography-63a9c12-font-size: 1.45vw;
+        --e-global-typography-4651c43-font-size: 2.2vw;
+        --e-global-typography-00c4916-font-size: 1.1vw;
+        --e-global-typography-e3a1cd7-font-size: 0.8vw;
+        --e-global-typography-df2d261-font-size: 0.8vw;
+        --e-global-typography-7163386-font-size: 1vw;
+        --e-global-typography-95b39d3-font-size: 1.4vw;
+        --e-global-typography-3be560a-font-size: 1.6vw;
+        --e-global-typography-d6a7e6b-font-size: 1.1vw;
+        --e-global-typography-a68532e-font-size: 1.95vw;
+        --e-global-typography-3b72406-font-size: 1.4vw;
+    }
+
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width: 767px) {
+    .elementor-kit-5 {
+        --e-global-typography-primary-font-size:30px;
+        --e-global-typography-secondary-font-size: 24px;
+        --e-global-typography-text-font-size: 12px;
+        --e-global-typography-accent-font-size: 10px;
+        --e-global-typography-63a9c12-font-size: 12.5px;
+        --e-global-typography-4651c43-font-size: 20px;
+        --e-global-typography-00c4916-font-size: 9px;
+        --e-global-typography-e3a1cd7-font-size: 6px;
+        --e-global-typography-df2d261-font-size: 6px;
+        --e-global-typography-7163386-font-size: 8px;
+        --e-global-typography-95b39d3-font-size: 12px;
+        --e-global-typography-3be560a-font-size: 14px;
+        --e-global-typography-d6a7e6b-font-size: 9px;
+        --e-global-typography-a68532e-font-size: 17.5px;
+        --e-global-typography-3b72406-font-size: 12px;
+    }
+
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
